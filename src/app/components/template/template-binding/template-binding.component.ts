@@ -12,6 +12,7 @@ export class TemplateBindingComponent {
   public age = 25;
   public isDisabled = true;
   public srcValue = 'https://github.com/fabiobatoni.png';
+  public isTextDecoration = this.age >= 25 ? 'underline' : 'none';
 
   constructor(){
     setTimeout(() =>{
