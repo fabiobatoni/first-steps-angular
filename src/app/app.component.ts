@@ -18,7 +18,6 @@ import { TemplateBindingComponent } from './components/template/template-binding
   template: `
       <h1>Curso de Angular</h1>
       <app-template-binding />
-      <app-new-component />
     `
 })
 export class AppComponent {

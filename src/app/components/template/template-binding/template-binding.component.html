@@ -5,3 +5,15 @@
 </p>
 
 <p>{{ 1 + 1 }}</p>
+<hr />
+
+<h2>Property binding</h2>
+<!-- <element [property]=''></element>-->
+<button [disabled]="isDisabled">Button</button>
+<!--<img [src]="srcValue" [alt]="name" [title]="name"/>-->
+
+<hr/>
+
+<h2>Attribute binding</h2>
+<!--<element [attr.atribute-you-are-targeting]="value"></element>-->
+<p [attr.title]="name" [attr.aria-label]="name">Fabio Godoy</p>
